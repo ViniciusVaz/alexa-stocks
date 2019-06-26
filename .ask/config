@@ -34,7 +34,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-api-starter-alexa-default",
             "handler": "index.handler",
-            "revisionId": "0d34db0f-8734-42ca-b312-30fbd5ea88bb",
+            "revisionId": "54cc628c-aa83-4d16-bc3f-d7ff6ddc866a",
             "runtime": "nodejs8.10"
           }
         ]
