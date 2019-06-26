@@ -17,11 +17,11 @@
       "in_skill_products": [],
       "resources": {
         "manifest": {
-          "eTag": "007453ec9f9287df797f74bfc3a338c9"
+          "eTag": "a8e9058b7dc576502a3e4329a592c1d5"
         },
         "interactionModel": {
           "pt-BR": {
-            "eTag": "78a746d7f687577f543e30fa20577557"
+            "eTag": "77339363a01c78550fc87db47eee5c03"
           }
         },
         "lambda": [
@@ -34,7 +34,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-api-starter-alexa-default",
             "handler": "index.handler",
-            "revisionId": "54cc628c-aa83-4d16-bc3f-d7ff6ddc866a",
+            "revisionId": "6063b272-da34-47ce-9d1d-1ff063afae9b",
             "runtime": "nodejs8.10"
           }
         ]
