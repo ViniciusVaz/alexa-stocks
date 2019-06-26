@@ -1,0 +1,4502 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "meus investimentos",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetRemoteDataIntent",
+          "slots": [
+            {
+              "name": "stocks",
+              "type": "Stocks"
+            }
+          ],
+          "samples": [
+            "Cotação {stocks}",
+            "Cotação de {stocks}",
+            "Quanto esta a ação {stocks}",
+            "Quanto esta valendo a ação de {stocks}",
+            "Qual a cotação {stocks}",
+            "Qual o valor de {stocks}",
+            "Qual o preço de {stocks}",
+            "Qual foi a última cotação de {stocks}"
+          ]
+        }
+      ],
+      "types": [
+          {
+            "name": "Stocks",
+            "values": [
+                  {
+                      "id": "ABCB10",
+                      "name": {
+                          "value": "ABCB10",
+                          "synonyms": [
+                              "ABC BRASIL",
+                              "ABCB10",
+                              "A. B. C. B. 10"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ABCB4",
+                      "name": {
+                          "value": "ABCB4",
+                          "synonyms": [
+                              "ABC BRASIL",
+                              "ABCB4",
+                              "A. B. C. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EALT3",
+                      "name": {
+                          "value": "EALT3",
+                          "synonyms": [
+                              "ACO ALTONA",
+                              "EALT3",
+                              "E. A. L. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EALT4",
+                      "name": {
+                          "value": "EALT4",
+                          "synonyms": [
+                              "ACO ALTONA",
+                              "EALT4",
+                              "E. A. L. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ADHM3",
+                      "name": {
+                          "value": "ADHM3",
+                          "synonyms": [
+                              "ADVANCED-DH",
+                              "ADHM3",
+                              "A. D. H. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AELP3",
+                      "name": {
+                          "value": "AELP3",
+                          "synonyms": [
+                              "AES ELPA",
+                              "AELP3",
+                              "A. E. L. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TIET3",
+                      "name": {
+                          "value": "TIET3",
+                          "synonyms": [
+                              "AES TIETE E",
+                              "TIET3",
+                              "T. I. E. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TIET4",
+                      "name": {
+                          "value": "TIET4",
+                          "synonyms": [
+                              "AES TIETE E",
+                              "TIET4",
+                              "T. I. E. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AFLT3",
+                      "name": {
+                          "value": "AFLT3",
+                          "synonyms": [
+                              "AFLUENTE T",
+                              "AFLT3",
+                              "A. F. L. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRGE3",
+                      "name": {
+                          "value": "BRGE3",
+                          "synonyms": [
+                              "ALFA CONSORC",
+                              "BRGE3",
+                              "B. R. G. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CRIV3",
+                      "name": {
+                          "value": "CRIV3",
+                          "synonyms": [
+                              "ALFA FINANC",
+                              "CRIV3",
+                              "C. R. I. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CRIV4",
+                      "name": {
+                          "value": "CRIV4",
+                          "synonyms": [
+                              "ALFA FINANC",
+                              "CRIV4",
+                              "C. R. I. V. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RPAD3",
+                      "name": {
+                          "value": "RPAD3",
+                          "synonyms": [
+                              "ALFA HOLDING",
+                              "RPAD3",
+                              "R. P. A. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRIV3",
+                      "name": {
+                          "value": "BRIV3",
+                          "synonyms": [
+                              "ALFA INVEST",
+                              "BRIV3",
+                              "B. R. I. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRIV4",
+                      "name": {
+                          "value": "BRIV4",
+                          "synonyms": [
+                              "ALFA INVEST",
+                              "BRIV4",
+                              "B. R. I. V. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ALSC3",
+                      "name": {
+                          "value": "ALSC3",
+                          "synonyms": [
+                              "ALIANSCE",
+                              "ALSC3",
+                              "A. L. S. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "APTI4",
+                      "name": {
+                          "value": "APTI4",
+                          "synonyms": [
+                              "ALIPERTI",
+                              "APTI4",
+                              "A. P. T. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AALR3",
+                      "name": {
+                          "value": "AALR3",
+                          "synonyms": [
+                              "ALLIAR",
+                              "AALR3",
+                              "A. A. L. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ALPA3",
+                      "name": {
+                          "value": "ALPA3",
+                          "synonyms": [
+                              "ALPARGATAS",
+                              "ALPA3",
+                              "A. L. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ALPA4",
+                      "name": {
+                          "value": "ALPA4",
+                          "synonyms": [
+                              "ALPARGATAS",
+                              "ALPA4",
+                              "A. L. P. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "APER3",
+                      "name": {
+                          "value": "APER3",
+                          "synonyms": [
+                              "ALPER S.A.",
+                              "APER3",
+                              "A. P. E. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ALUP3",
+                      "name": {
+                          "value": "ALUP3",
+                          "synonyms": [
+                              "ALUPAR",
+                              "ALUP3",
+                              "A. L. U. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ALUP4",
+                      "name": {
+                          "value": "ALUP4",
+                          "synonyms": [
+                              "ALUPAR",
+                              "ALUP4",
+                              "A. L. U. P. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BAZA3",
+                      "name": {
+                          "value": "BAZA3",
+                          "synonyms": [
+                              "AMAZONIA",
+                              "BAZA3",
+                              "B. A. Z. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ABEV3",
+                      "name": {
+                          "value": "ABEV3",
+                          "synonyms": [
+                              "AMBEV S/A",
+                              "ABEV3",
+                              "A. B. E. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CBEE3",
+                      "name": {
+                          "value": "CBEE3",
+                          "synonyms": [
+                              "AMPLA ENERG",
+                              "CBEE3",
+                              "C. B. E. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ANIM3",
+                      "name": {
+                          "value": "ANIM3",
+                          "synonyms": [
+                              "ANIMA",
+                              "ANIM3",
+                              "A. N. I. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ARZZ3",
+                      "name": {
+                          "value": "ARZZ3",
+                          "synonyms": [
+                              "AREZZO CO",
+                              "ARZZ3",
+                              "A. R. Z. Z. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ATOM3",
+                      "name": {
+                          "value": "ATOM3",
+                          "synonyms": [
+                              "ATOMPAR",
+                              "ATOM3",
+                              "A. T. O. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AZEV3",
+                      "name": {
+                          "value": "AZEV3",
+                          "synonyms": [
+                              "AZEVEDO",
+                              "AZEV3",
+                              "A. Z. E. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AZEV4",
+                      "name": {
+                          "value": "AZEV4",
+                          "synonyms": [
+                              "AZEVEDO",
+                              "AZEV4",
+                              "A. Z. E. V. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AZUL4",
+                      "name": {
+                          "value": "AZUL4",
+                          "synonyms": [
+                              "AZUL",
+                              "AZUL4",
+                              "A. Z. U. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BTOW3",
+                      "name": {
+                          "value": "BTOW3",
+                          "synonyms": [
+                              "B2W DIGITAL",
+                              "BTOW3",
+                              "B. T. O. W. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "B3SA3",
+                      "name": {
+                          "value": "B3SA3",
+                          "synonyms": [
+                              "B3",
+                              "B3SA3",
+                              "B. 3. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BAHI3",
+                      "name": {
+                          "value": "BAHI3",
+                          "synonyms": [
+                              "BAHEMA",
+                              "BAHI3",
+                              "B. A. H. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BIDI10",
+                      "name": {
+                          "value": "BIDI10",
+                          "synonyms": [
+                              "BANCO INTER",
+                              "BIDI10",
+                              "B. I. D. I. 1. 0"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BIDI4",
+                      "name": {
+                          "value": "BIDI4",
+                          "synonyms": [
+                              "BANCO INTER",
+                              "BIDI4",
+                              "B. I. D. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BPAN4",
+                      "name": {
+                          "value": "BPAN4",
+                          "synonyms": [
+                              "BANCO PAN",
+                              "BPAN4",
+                              "B. P. A. N. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BGIP3",
+                      "name": {
+                          "value": "BGIP3",
+                          "synonyms": [
+                              "BANESE",
+                              "BGIP3",
+                              "B. G. I. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BGIP4",
+                      "name": {
+                          "value": "BGIP4",
+                          "synonyms": [
+                              "BANESE",
+                              "BGIP4",
+                              "B. G. I. P. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BEES3",
+                      "name": {
+                          "value": "BEES3",
+                          "synonyms": [
+                              "BANESTES",
+                              "BEES3",
+                              "B. E. E. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BEES4",
+                      "name": {
+                          "value": "BEES4",
+                          "synonyms": [
+                              "BANESTES",
+                              "BEES4",
+                              "B. E. E. S. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRSR3",
+                      "name": {
+                          "value": "BRSR3",
+                          "synonyms": [
+                              "BANRISUL",
+                              "BRSR3",
+                              "B. R. S. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BDLL4",
+                      "name": {
+                          "value": "BDLL4",
+                          "synonyms": [
+                              "BARDELLA",
+                              "BDLL4",
+                              "B. D. L. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BTTL3",
+                      "name": {
+                          "value": "BTTL3",
+                          "synonyms": [
+                              "BATTISTELLA",
+                              "BTTL3",
+                              "B. T. T. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BTTL4",
+                      "name": {
+                          "value": "BTTL4",
+                          "synonyms": [
+                              "BATTISTELLA",
+                              "BTTL4",
+                              "B. T. T. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BALM3",
+                      "name": {
+                          "value": "BALM3",
+                          "synonyms": [
+                              "BAUMER",
+                              "BALM3",
+                              "B. A. L. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BALM4",
+                      "name": {
+                          "value": "BALM4",
+                          "synonyms": [
+                              "BAUMER",
+                              "BALM4",
+                              "B. A. L. M. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBSE3",
+                      "name": {
+                          "value": "BBSE3",
+                          "synonyms": [
+                              "BBSEGURIDADE",
+                              "BBSE3",
+                              "B. B. S. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BMKS3",
+                      "name": {
+                          "value": "BMKS3",
+                          "synonyms": [
+                              "BIC MONARK",
+                              "BMKS3",
+                              "B. M. K. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BIOM3",
+                      "name": {
+                          "value": "BIOM3",
+                          "synonyms": [
+                              "BIOMM",
+                              "BIOM3",
+                              "B. I. O. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BSEV3",
+                      "name": {
+                          "value": "BSEV3",
+                          "synonyms": [
+                              "BIOSEV",
+                              "BSEV3",
+                              "B. S. E. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BKBR3",
+                      "name": {
+                          "value": "BKBR3",
+                          "synonyms": [
+                              "BK BRASIL",
+                              "BKBR3",
+                              "B. K. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BOBR4",
+                      "name": {
+                          "value": "BOBR4",
+                          "synonyms": [
+                              "BOMBRIL",
+                              "BOBR4",
+                              "B. O. B. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBRK3",
+                      "name": {
+                          "value": "BBRK3",
+                          "synonyms": [
+                              "BR BROKERS",
+                              "BBRK3",
+                              "B. B. R. K. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBRK9",
+                      "name": {
+                          "value": "BBRK9",
+                          "synonyms": [
+                              "BR BROKERS",
+                              "BBRK9",
+                              "B. B. R. K. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRIN3",
+                      "name": {
+                          "value": "BRIN3",
+                          "synonyms": [
+                              "BR INSURANCE",
+                              "BRIN3",
+                              "B. R. I. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRML3",
+                      "name": {
+                          "value": "BRML3",
+                          "synonyms": [
+                              "BR MALLS PAR",
+                              "BRML3",
+                              "B. R. M. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BPHA3",
+                      "name": {
+                          "value": "BPHA3",
+                          "synonyms": [
+                              "BR PHARMA",
+                              "BPHA3",
+                              "B. P. H. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRPR3",
+                      "name": {
+                          "value": "BRPR3",
+                          "synonyms": [
+                              "BR PROPERT",
+                              "BRPR3",
+                              "B. R. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBDC3",
+                      "name": {
+                          "value": "BBDC3",
+                          "synonyms": [
+                              "BRADESCO",
+                              "BBDC3",
+                              "B. B. D. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBDC4",
+                      "name": {
+                          "value": "BBDC4",
+                          "synonyms": [
+                              "BRADESCO",
+                              "BBDC4",
+                              "B. B. D. C. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRAP3",
+                      "name": {
+                          "value": "BRAP3",
+                          "synonyms": [
+                              "BRADESPAR",
+                              "BRAP3",
+                              "B. R. A. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRAP4",
+                      "name": {
+                          "value": "BRAP4",
+                          "synonyms": [
+                              "BRADESPAR",
+                              "BRAP4",
+                              "B. R. A. P. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BBAS3",
+                      "name": {
+                          "value": "BBAS3",
+                          "synonyms": [
+                              "BRASIL",
+                              "BBAS3",
+                              "B. B. A. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AGRO3",
+                      "name": {
+                          "value": "AGRO3",
+                          "synonyms": [
+                              "BRASILAGRO",
+                              "AGRO3",
+                              "A. G. R. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRKM3",
+                      "name": {
+                          "value": "BRKM3",
+                          "synonyms": [
+                              "BRASKEM",
+                              "BRKM3",
+                              "B. R. K. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BSLI3",
+                      "name": {
+                          "value": "BSLI3",
+                          "synonyms": [
+                              "BRB BANCO",
+                              "BSLI3",
+                              "B. S. L. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BSLI4",
+                      "name": {
+                          "value": "BSLI4",
+                          "synonyms": [
+                              "BRB BANCO",
+                              "BSLI4",
+                              "B. S. L. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRFS3",
+                      "name": {
+                          "value": "BRFS3",
+                          "synonyms": [
+                              "BRF SA",
+                              "BRFS3",
+                              "B. R. F. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BPAC3",
+                      "name": {
+                          "value": "BPAC3",
+                          "synonyms": [
+                              "BTGP BANCO",
+                              "BPAC3",
+                              "B. P. A. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CAMB10",
+                      "name": {
+                          "value": "CAMB10",
+                          "synonyms": [
+                              "CAMBUCI",
+                              "CAMB10",
+                              "C. A. M. B. 1. 0"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CAMB4",
+                      "name": {
+                          "value": "CAMB4",
+                          "synonyms": [
+                              "CAMBUCI",
+                              "CAMB4",
+                              "C. A. M. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CAML3",
+                      "name": {
+                          "value": "CAML3",
+                          "synonyms": [
+                              "CAMIL",
+                              "CAML3",
+                              "C. A. M. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CRFB3",
+                      "name": {
+                          "value": "CRFB3",
+                          "synonyms": [
+                              "CARREFOUR BR",
+                              "CRFB3",
+                              "C. R. F. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CASN3",
+                      "name": {
+                          "value": "CASN3",
+                          "synonyms": [
+                              "CASAN",
+                              "CASN3",
+                              "C. A. S. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CASN4",
+                      "name": {
+                          "value": "CASN4",
+                          "synonyms": [
+                              "CASAN",
+                              "CASN4",
+                              "C. A. S. N. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CCRO3",
+                      "name": {
+                          "value": "CCRO3",
+                          "synonyms": [
+                              "CCR SA",
+                              "CCRO3",
+                              "C. C. R. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CCXC3",
+                      "name": {
+                          "value": "CCXC3",
+                          "synonyms": [
+                              "CCX CARVAO",
+                              "CCXC3",
+                              "C. C. X. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEBR3",
+                      "name": {
+                          "value": "CEBR3",
+                          "synonyms": [
+                              "CEB",
+                              "CEBR3",
+                              "C. E. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEDO3",
+                      "name": {
+                          "value": "CEDO3",
+                          "synonyms": [
+                              "CEDRO",
+                              "CEDO3",
+                              "C. E. D. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEDO4",
+                      "name": {
+                          "value": "CEDO4",
+                          "synonyms": [
+                              "CEDRO",
+                              "CEDO4",
+                              "C. E. D. O. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEED3",
+                      "name": {
+                          "value": "CEED3",
+                          "synonyms": [
+                              "CEEE-D",
+                              "CEED3",
+                              "C. E. E. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEED4",
+                      "name": {
+                          "value": "CEED4",
+                          "synonyms": [
+                              "CEEE-D",
+                              "CEED4",
+                              "C. E. E. D. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EEEL3",
+                      "name": {
+                          "value": "EEEL3",
+                          "synonyms": [
+                              "CEEE-GT",
+                              "EEEL3",
+                              "E. E. E. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EEEL4",
+                      "name": {
+                          "value": "EEEL4",
+                          "synonyms": [
+                              "CEEE-GT",
+                              "EEEL4",
+                              "E. E. E. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEGR3",
+                      "name": {
+                          "value": "CEGR3",
+                          "synonyms": [
+                              "CEG",
+                              "CEGR3",
+                              "C. E. G. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CLSC3",
+                      "name": {
+                          "value": "CLSC3",
+                          "synonyms": [
+                              "CELESC",
+                              "CLSC3",
+                              "C. L. S. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CLSC4",
+                      "name": {
+                          "value": "CLSC4",
+                          "synonyms": [
+                              "CELESC",
+                              "CLSC4",
+                              "C. L. S. C. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GPAR3",
+                      "name": {
+                          "value": "GPAR3",
+                          "synonyms": [
+                              "CELGPAR",
+                              "GPAR3",
+                              "G. P. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CELP3",
+                      "name": {
+                          "value": "CELP3",
+                          "synonyms": [
+                              "CELPA",
+                              "CELP3",
+                              "C. E. L. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RANI3",
+                      "name": {
+                          "value": "RANI3",
+                          "synonyms": [
+                              "CELUL IRANI",
+                              "RANI3",
+                              "R. A. N. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RANI4",
+                      "name": {
+                          "value": "RANI4",
+                          "synonyms": [
+                              "CELUL IRANI",
+                              "RANI4",
+                              "R. A. N. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MAPT3",
+                      "name": {
+                          "value": "MAPT3",
+                          "synonyms": [
+                              "CEMEPE",
+                              "MAPT3",
+                              "M. A. P. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MAPT4",
+                      "name": {
+                          "value": "MAPT4",
+                          "synonyms": [
+                              "CEMEPE",
+                              "MAPT4",
+                              "M. A. P. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CMIG3",
+                      "name": {
+                          "value": "CMIG3",
+                          "synonyms": [
+                              "CEMIG",
+                              "CMIG3",
+                              "C. M. I. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CMIG4",
+                      "name": {
+                          "value": "CMIG4",
+                          "synonyms": [
+                              "CEMIG",
+                              "CMIG4",
+                              "C. M. I. G. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CNTO3",
+                      "name": {
+                          "value": "CNTO3",
+                          "synonyms": [
+                              "CENTAURO",
+                              "CNTO3",
+                              "C. N. T. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CESP3",
+                      "name": {
+                          "value": "CESP3",
+                          "synonyms": [
+                              "CESP",
+                              "CESP3",
+                              "C. E. S. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HGTX3",
+                      "name": {
+                          "value": "HGTX3",
+                          "synonyms": [
+                              "CIA HERING",
+                              "HGTX3",
+                              "H. G. T. X. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CIEL3",
+                      "name": {
+                          "value": "CIEL3",
+                          "synonyms": [
+                              "CIELO",
+                              "CIEL3",
+                              "C. I. E. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CEEB3",
+                      "name": {
+                          "value": "CEEB3",
+                          "synonyms": [
+                              "COELBA",
+                              "CEEB3",
+                              "C. E. E. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "COCE3",
+                      "name": {
+                          "value": "COCE3",
+                          "synonyms": [
+                              "COELCE",
+                              "COCE3",
+                              "C. O. C. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CGAS3",
+                      "name": {
+                          "value": "CGAS3",
+                          "synonyms": [
+                              "COMGAS",
+                              "CGAS3",
+                              "C. G. A. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CALI3",
+                      "name": {
+                          "value": "CALI3",
+                          "synonyms": [
+                              "CONST A LIND",
+                              "CALI3",
+                              "C. A. L. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CALI4",
+                      "name": {
+                          "value": "CALI4",
+                          "synonyms": [
+                              "CONST A LIND",
+                              "CALI4",
+                              "C. A. L. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSMG3",
+                      "name": {
+                          "value": "CSMG3",
+                          "synonyms": [
+                              "COPASA",
+                              "CSMG3",
+                              "C. S. M. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CPLE3",
+                      "name": {
+                          "value": "CPLE3",
+                          "synonyms": [
+                              "COPEL",
+                              "CPLE3",
+                              "C. P. L. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CORR4",
+                      "name": {
+                          "value": "CORR4",
+                          "synonyms": [
+                              "COR RIBEIRO",
+                              "CORR4",
+                              "C. O. R. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSAN3",
+                      "name": {
+                          "value": "CSAN3",
+                          "synonyms": [
+                              "COSAN",
+                              "CSAN3",
+                              "C. S. A. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RLOG3",
+                      "name": {
+                          "value": "RLOG3",
+                          "synonyms": [
+                              "COSAN LOG",
+                              "RLOG3",
+                              "R. L. O. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSRN3",
+                      "name": {
+                          "value": "CSRN3",
+                          "synonyms": [
+                              "COSERN",
+                              "CSRN3",
+                              "C. S. R. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTNM3",
+                      "name": {
+                          "value": "CTNM3",
+                          "synonyms": [
+                              "COTEMINAS",
+                              "CTNM3",
+                              "C. T. N. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTNM4",
+                      "name": {
+                          "value": "CTNM4",
+                          "synonyms": [
+                              "COTEMINAS",
+                              "CTNM4",
+                              "C. T. N. M. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CPFE3",
+                      "name": {
+                          "value": "CPFE3",
+                          "synonyms": [
+                              "CPFL ENERGIA",
+                              "CPFE3",
+                              "C. P. F. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CPRE3",
+                      "name": {
+                          "value": "CPRE3",
+                          "synonyms": [
+                              "CPFL RENOVAV",
+                              "CPRE3",
+                              "C. P. R. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CRDE3",
+                      "name": {
+                          "value": "CRDE3",
+                          "synonyms": [
+                              "CR2",
+                              "CRDE3",
+                              "C. R. D. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CREM3",
+                      "name": {
+                          "value": "CREM3",
+                          "synonyms": [
+                              "CREMER",
+                              "CREM3",
+                              "C. R. E. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CRPG3",
+                      "name": {
+                          "value": "CRPG3",
+                          "synonyms": [
+                              "CRISTAL",
+                              "CRPG3",
+                              "C. R. P. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CARD3",
+                      "name": {
+                          "value": "CARD3",
+                          "synonyms": [
+                              "CSU CARDSYST",
+                              "CARD3",
+                              "C. A. R. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CVCB3",
+                      "name": {
+                          "value": "CVCB3",
+                          "synonyms": [
+                              "CVC BRASIL",
+                              "CVCB3",
+                              "C. V. C. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CCPR3",
+                      "name": {
+                          "value": "CCPR3",
+                          "synonyms": [
+                              "CYRE COM-CCP",
+                              "CCPR3",
+                              "C. C. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CYRE3",
+                      "name": {
+                          "value": "CYRE3",
+                          "synonyms": [
+                              "CYRELA REALT",
+                              "CYRE3",
+                              "C. Y. R. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DASA3",
+                      "name": {
+                          "value": "DASA3",
+                          "synonyms": [
+                              "DASA",
+                              "DASA3",
+                              "D. A. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PNVL3",
+                      "name": {
+                          "value": "PNVL3",
+                          "synonyms": [
+                              "DIMED",
+                              "PNVL3",
+                              "P. N. V. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PNVL4",
+                      "name": {
+                          "value": "PNVL4",
+                          "synonyms": [
+                              "DIMED",
+                              "PNVL4",
+                              "P. N. V. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DIRR3",
+                      "name": {
+                          "value": "DIRR3",
+                          "synonyms": [
+                              "DIRECIONAL",
+                              "DIRR3",
+                              "D. I. R. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DOHL3",
+                      "name": {
+                          "value": "DOHL3",
+                          "synonyms": [
+                              "DOHLER",
+                              "DOHL3",
+                              "D. O. H. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DOHL4",
+                      "name": {
+                          "value": "DOHL4",
+                          "synonyms": [
+                              "DOHLER",
+                              "DOHL4",
+                              "D. O. H. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DMMO3",
+                      "name": {
+                          "value": "DMMO3",
+                          "synonyms": [
+                              "DOMMO",
+                              "DMMO3",
+                              "D. M. M. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DTCY3",
+                      "name": {
+                          "value": "DTCY3",
+                          "synonyms": [
+                              "DTCOM-DIRECT",
+                              "DTCY3",
+                              "D. T. C. Y. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "DTEX3",
+                      "name": {
+                          "value": "DTEX3",
+                          "synonyms": [
+                              "DURATEX",
+                              "DTEX3",
+                              "D. T. E. X. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ECOR3",
+                      "name": {
+                          "value": "ECOR3",
+                          "synonyms": [
+                              "ECORODOVIAS",
+                              "ECOR3",
+                              "E. C. O. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ELEK3",
+                      "name": {
+                          "value": "ELEK3",
+                          "synonyms": [
+                              "ELEKEIROZ",
+                              "ELEK3",
+                              "E. L. E. K. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ELEK4",
+                      "name": {
+                          "value": "ELEK4",
+                          "synonyms": [
+                              "ELEKEIROZ",
+                              "ELEK4",
+                              "E. L. E. K. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EKTR3",
+                      "name": {
+                          "value": "EKTR3",
+                          "synonyms": [
+                              "ELEKTRO",
+                              "EKTR3",
+                              "E. K. T. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EKTR4",
+                      "name": {
+                          "value": "EKTR4",
+                          "synonyms": [
+                              "ELEKTRO",
+                              "EKTR4",
+                              "E. K. T. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ELET3",
+                      "name": {
+                          "value": "ELET3",
+                          "synonyms": [
+                              "ELETROBRAS",
+                              "ELET3",
+                              "E. L. E. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LIPR3",
+                      "name": {
+                          "value": "LIPR3",
+                          "synonyms": [
+                              "ELETROPAR",
+                              "LIPR3",
+                              "L. I. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ELPL3",
+                      "name": {
+                          "value": "ELPL3",
+                          "synonyms": [
+                              "ELETROPAULO",
+                              "ELPL3",
+                              "E. L. P. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EMAE3",
+                      "name": {
+                          "value": "EMAE3",
+                          "synonyms": [
+                              "EMAE",
+                              "EMAE3",
+                              "E. M. A. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EMAE4",
+                      "name": {
+                          "value": "EMAE4",
+                          "synonyms": [
+                              "EMAE",
+                              "EMAE4",
+                              "E. M. A. E. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EMBR3",
+                      "name": {
+                          "value": "EMBR3",
+                          "synonyms": [
+                              "EMBRAER",
+                              "EMBR3",
+                              "E. M. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENAT3",
+                      "name": {
+                          "value": "ENAT3",
+                          "synonyms": [
+                              "ENAUTA PART",
+                              "ENAT3",
+                              "E. N. A. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ECPR3",
+                      "name": {
+                          "value": "ECPR3",
+                          "synonyms": [
+                              "ENCORPAR",
+                              "ECPR3",
+                              "E. C. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ECPR4",
+                      "name": {
+                          "value": "ECPR4",
+                          "synonyms": [
+                              "ENCORPAR",
+                              "ECPR4",
+                              "E. C. P. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENBR3",
+                      "name": {
+                          "value": "ENBR3",
+                          "synonyms": [
+                              "ENERGIAS BR",
+                              "ENBR3",
+                              "E. N. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENGI3",
+                      "name": {
+                          "value": "ENGI3",
+                          "synonyms": [
+                              "ENERGISA",
+                              "ENGI3",
+                              "E. N. G. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENGI4",
+                      "name": {
+                          "value": "ENGI4",
+                          "synonyms": [
+                              "ENERGISA",
+                              "ENGI4",
+                              "E. N. G. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENMT3",
+                      "name": {
+                          "value": "ENMT3",
+                          "synonyms": [
+                              "ENERGISA MT",
+                              "ENMT3",
+                              "E. N. M. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENMT4",
+                      "name": {
+                          "value": "ENMT4",
+                          "synonyms": [
+                              "ENERGISA MT",
+                              "ENMT4",
+                              "E. N. M. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ENEV3",
+                      "name": {
+                          "value": "ENEV3",
+                          "synonyms": [
+                              "ENEVA",
+                              "ENEV3",
+                              "E. N. E. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EGIE3",
+                      "name": {
+                          "value": "EGIE3",
+                          "synonyms": [
+                              "ENGIE BRASIL",
+                              "EGIE3",
+                              "E. G. I. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EQTL3",
+                      "name": {
+                          "value": "EQTL3",
+                          "synonyms": [
+                              "EQUATORIAL",
+                              "EQTL3",
+                              "E. Q. T. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ESTC3",
+                      "name": {
+                          "value": "ESTC3",
+                          "synonyms": [
+                              "ESTACIO PART",
+                              "ESTC3",
+                              "E. S. T. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ESTR3",
+                      "name": {
+                          "value": "ESTR3",
+                          "synonyms": [
+                              "ESTRELA",
+                              "ESTR3",
+                              "E. S. T. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ESTR4",
+                      "name": {
+                          "value": "ESTR4",
+                          "synonyms": [
+                              "ESTRELA",
+                              "ESTR4",
+                              "E. S. T. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ETER3",
+                      "name": {
+                          "value": "ETER3",
+                          "synonyms": [
+                              "ETERNIT",
+                              "ETER3",
+                              "E. T. E. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EUCA3",
+                      "name": {
+                          "value": "EUCA3",
+                          "synonyms": [
+                              "EUCATEX",
+                              "EUCA3",
+                              "E. U. C. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EUCA4",
+                      "name": {
+                          "value": "EUCA4",
+                          "synonyms": [
+                              "EUCATEX",
+                              "EUCA4",
+                              "E. U. C. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EVEN3",
+                      "name": {
+                          "value": "EVEN3",
+                          "synonyms": [
+                              "EVEN",
+                              "EVEN3",
+                              "E. V. E. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BAUH4",
+                      "name": {
+                          "value": "BAUH4",
+                          "synonyms": [
+                              "EXCELSIOR",
+                              "BAUH4",
+                              "B. A. U. H. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "EZTC3",
+                      "name": {
+                          "value": "EZTC3",
+                          "synonyms": [
+                              "EZTEC",
+                              "EZTC3",
+                              "E. Z. T. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FHER3",
+                      "name": {
+                          "value": "FHER3",
+                          "synonyms": [
+                              "FER HERINGER",
+                              "FHER3",
+                              "F. H. E. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FESA3",
+                      "name": {
+                          "value": "FESA3",
+                          "synonyms": [
+                              "FERBASA",
+                              "FESA3",
+                              "F. E. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FESA4",
+                      "name": {
+                          "value": "FESA4",
+                          "synonyms": [
+                              "FERBASA",
+                              "FESA4",
+                              "F. E. S. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FBMC4",
+                      "name": {
+                          "value": "FBMC4",
+                          "synonyms": [
+                              "FIBAM",
+                              "FBMC4",
+                              "F. B. M. C. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FIBR3",
+                      "name": {
+                          "value": "FIBR3",
+                          "synonyms": [
+                              "FIBRIA",
+                              "FIBR3",
+                              "F. I. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FLRY3",
+                      "name": {
+                          "value": "FLRY3",
+                          "synonyms": [
+                              "FLEURY",
+                              "FLRY3",
+                              "F. L. R. Y. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FJTA3",
+                      "name": {
+                          "value": "FJTA3",
+                          "synonyms": [
+                              "FORJA TAURUS",
+                              "FJTA3",
+                              "F. J. T. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FJTA4",
+                      "name": {
+                          "value": "FJTA4",
+                          "synonyms": [
+                              "FORJA TAURUS",
+                              "FJTA4",
+                              "F. J. T. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FRAS3",
+                      "name": {
+                          "value": "FRAS3",
+                          "synonyms": [
+                              "FRAS-LE",
+                              "FRAS3",
+                              "F. R. A. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GFSA3",
+                      "name": {
+                          "value": "GFSA3",
+                          "synonyms": [
+                              "GAFISA",
+                              "GFSA3",
+                              "G. F. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GFSA9",
+                      "name": {
+                          "value": "GFSA9",
+                          "synonyms": [
+                              "GAFISA",
+                              "GFSA9",
+                              "G. F. S. A. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GSHP3",
+                      "name": {
+                          "value": "GSHP3",
+                          "synonyms": [
+                              "GENERALSHOPP",
+                              "GSHP3",
+                              "G. S. H. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GEPA3",
+                      "name": {
+                          "value": "GEPA3",
+                          "synonyms": [
+                              "GER PARANAP",
+                              "GEPA3",
+                              "G. E. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GEPA4",
+                      "name": {
+                          "value": "GEPA4",
+                          "synonyms": [
+                              "GER PARANAP",
+                              "GEPA4",
+                              "G. E. P. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GGBR3",
+                      "name": {
+                          "value": "GGBR3",
+                          "synonyms": [
+                              "GERDAU",
+                              "GGBR3",
+                              "G. G. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GGBR4",
+                      "name": {
+                          "value": "GGBR4",
+                          "synonyms": [
+                              "GERDAU",
+                              "GGBR4",
+                              "G. G. B. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GOAU3",
+                      "name": {
+                          "value": "GOAU3",
+                          "synonyms": [
+                              "GERDAU MET",
+                              "GOAU3",
+                              "G. O. A. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GOAU4",
+                      "name": {
+                          "value": "GOAU4",
+                          "synonyms": [
+                              "GERDAU MET",
+                              "GOAU4",
+                              "G. O. A. U. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GOLL4",
+                      "name": {
+                          "value": "GOLL4",
+                          "synonyms": [
+                              "GOL",
+                              "GOLL4",
+                              "G. O. L. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GPCP3",
+                      "name": {
+                          "value": "GPCP3",
+                          "synonyms": [
+                              "GPC PART",
+                              "GPCP3",
+                              "G. P. C. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CGRA3",
+                      "name": {
+                          "value": "CGRA3",
+                          "synonyms": [
+                              "GRAZZIOTIN",
+                              "CGRA3",
+                              "C. G. R. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CGRA4",
+                      "name": {
+                          "value": "CGRA4",
+                          "synonyms": [
+                              "GRAZZIOTIN",
+                              "CGRA4",
+                              "C. G. R. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GRND3",
+                      "name": {
+                          "value": "GRND3",
+                          "synonyms": [
+                              "GRENDENE",
+                              "GRND3",
+                              "G. R. N. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GUAR3",
+                      "name": {
+                          "value": "GUAR3",
+                          "synonyms": [
+                              "GUARARAPES",
+                              "GUAR3",
+                              "G. U. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GUAR4",
+                      "name": {
+                          "value": "GUAR4",
+                          "synonyms": [
+                              "GUARARAPES",
+                              "GUAR4",
+                              "G. U. A. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HAGA3",
+                      "name": {
+                          "value": "HAGA3",
+                          "synonyms": [
+                              "HAGA S/A",
+                              "HAGA3",
+                              "H. A. G. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HAGA4",
+                      "name": {
+                          "value": "HAGA4",
+                          "synonyms": [
+                              "HAGA S/A",
+                              "HAGA4",
+                              "H. A. G. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HAPV3",
+                      "name": {
+                          "value": "HAPV3",
+                          "synonyms": [
+                              "HAPVIDA",
+                              "HAPV3",
+                              "H. A. P. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HBOR3",
+                      "name": {
+                          "value": "HBOR3",
+                          "synonyms": [
+                              "HELBOR",
+                              "HBOR3",
+                              "H. B. O. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HETA4",
+                      "name": {
+                          "value": "HETA4",
+                          "synonyms": [
+                              "HERCULES",
+                              "HETA4",
+                              "H. E. T. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HOOT4",
+                      "name": {
+                          "value": "HOOT4",
+                          "synonyms": [
+                              "HOTEIS OTHON",
+                              "HOOT4",
+                              "H. O. O. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "HYPE3",
+                      "name": {
+                          "value": "HYPE3",
+                          "synonyms": [
+                              "HYPERA",
+                              "HYPE3",
+                              "H. Y. P. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IDNT3",
+                      "name": {
+                          "value": "IDNT3",
+                          "synonyms": [
+                              "IDEIASNET",
+                              "IDNT3",
+                              "I. D. N. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IGBR3",
+                      "name": {
+                          "value": "IGBR3",
+                          "synonyms": [
+                              "IGB S/A",
+                              "IGBR3",
+                              "I. G. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IGTA3",
+                      "name": {
+                          "value": "IGTA3",
+                          "synonyms": [
+                              "IGUATEMI",
+                              "IGTA3",
+                              "I. G. T. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PARD3",
+                      "name": {
+                          "value": "PARD3",
+                          "synonyms": [
+                              "IHPARDINI",
+                              "PARD3",
+                              "P. A. R. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MEAL3",
+                      "name": {
+                          "value": "MEAL3",
+                          "synonyms": [
+                              "IMC S/A",
+                              "MEAL3",
+                              "M. E. A. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ROMI3",
+                      "name": {
+                          "value": "ROMI3",
+                          "synonyms": [
+                              "INDS ROMI",
+                              "ROMI3",
+                              "R. O. M. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IDVL3",
+                      "name": {
+                          "value": "IDVL3",
+                          "synonyms": [
+                              "INDUSVAL",
+                              "IDVL3",
+                              "I. D. V. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IDVL9",
+                      "name": {
+                          "value": "IDVL9",
+                          "synonyms": [
+                              "INDUSVAL",
+                              "IDVL9",
+                              "I. D. V. L. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IDVL4",
+                      "name": {
+                          "value": "IDVL4",
+                          "synonyms": [
+                              "INDUSVAL",
+                              "IDVL4",
+                              "I. D. V. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "INEP3",
+                      "name": {
+                          "value": "INEP3",
+                          "synonyms": [
+                              "INEPAR",
+                              "INEP3",
+                              "I. N. E. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "INEP4",
+                      "name": {
+                          "value": "INEP4",
+                          "synonyms": [
+                              "INEPAR",
+                              "INEP4",
+                              "I. N. E. P. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "GNDI3",
+                      "name": {
+                          "value": "GNDI3",
+                          "synonyms": [
+                              "INTERMEDICA",
+                              "GNDI3",
+                              "G. N. D. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MYPK3",
+                      "name": {
+                          "value": "MYPK3",
+                          "synonyms": [
+                              "IOCHP-MAXION",
+                              "MYPK3",
+                              "M. Y. P. K. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "IRBR3",
+                      "name": {
+                          "value": "IRBR3",
+                          "synonyms": [
+                              "IRBBRASIL RE",
+                              "IRBR3",
+                              "I. R. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ITSA3",
+                      "name": {
+                          "value": "ITSA3",
+                          "synonyms": [
+                              "ITAUSA",
+                              "ITSA3",
+                              "I. T. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ITSA4",
+                      "name": {
+                          "value": "ITSA4",
+                          "synonyms": [
+                              "ITAUSA",
+                              "ITSA4",
+                              "I. T. S. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ITEC3",
+                      "name": {
+                          "value": "ITEC3",
+                          "synonyms": [
+                              "ITAUTEC",
+                              "ITEC3",
+                              "I. T. E. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ITUB3",
+                      "name": {
+                          "value": "ITUB3",
+                          "synonyms": [
+                              "ITAUUNIBANCO",
+                              "ITUB3",
+                              "I. T. U. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ITUB4",
+                      "name": {
+                          "value": "ITUB4",
+                          "synonyms": [
+                              "ITAUUNIBANCO",
+                              "ITUB4",
+                              "I. T. U. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JBDU11",
+                      "name": {
+                          "value": "JBDU11",
+                          "synonyms": [
+                              "J B DUARTE",
+                              "JBDU11",
+                              "J. B. D. U. 1. 1"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JBDU3",
+                      "name": {
+                          "value": "JBDU3",
+                          "synonyms": [
+                              "J B DUARTE",
+                              "JBDU3",
+                              "J. B. D. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JBDU12",
+                      "name": {
+                          "value": "JBDU12",
+                          "synonyms": [
+                              "J B DUARTE",
+                              "JBDU12",
+                              "J. B. D. U. 1. 2"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JBDU4",
+                      "name": {
+                          "value": "JBDU4",
+                          "synonyms": [
+                              "J B DUARTE",
+                              "JBDU4",
+                              "J. B. D. U. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JBSS3",
+                      "name": {
+                          "value": "JBSS3",
+                          "synonyms": [
+                              "JBS",
+                              "JBSS3",
+                              "J. B. S. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JPSA3",
+                      "name": {
+                          "value": "JPSA3",
+                          "synonyms": [
+                              "JEREISSATI",
+                              "JPSA3",
+                              "J. P. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JHSF3",
+                      "name": {
+                          "value": "JHSF3",
+                          "synonyms": [
+                              "JHSF PART",
+                              "JHSF3",
+                              "J. H. S. F. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JFEN3",
+                      "name": {
+                          "value": "JFEN3",
+                          "synonyms": [
+                              "JOAO FORTES",
+                              "JFEN3",
+                              "J. F. E. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JOPA3",
+                      "name": {
+                          "value": "JOPA3",
+                          "synonyms": [
+                              "JOSAPAR",
+                              "JOPA3",
+                              "J. O. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JOPA4",
+                      "name": {
+                          "value": "JOPA4",
+                          "synonyms": [
+                              "JOSAPAR",
+                              "JOPA4",
+                              "J. O. P. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "JSLG3",
+                      "name": {
+                          "value": "JSLG3",
+                          "synonyms": [
+                              "JSL",
+                              "JSLG3",
+                              "J. S. L. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTKA3",
+                      "name": {
+                          "value": "CTKA3",
+                          "synonyms": [
+                              "KARSTEN",
+                              "CTKA3",
+                              "C. T. K. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTKA4",
+                      "name": {
+                          "value": "CTKA4",
+                          "synonyms": [
+                              "KARSTEN",
+                              "CTKA4",
+                              "C. T. K. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "KEPL3",
+                      "name": {
+                          "value": "KEPL3",
+                          "synonyms": [
+                              "KEPLER WEBER",
+                              "KEPL3",
+                              "K. E. P. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "KLBN3",
+                      "name": {
+                          "value": "KLBN3",
+                          "synonyms": [
+                              "KLABIN S/A",
+                              "KLBN3",
+                              "K. L. B. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "KLBN4",
+                      "name": {
+                          "value": "KLBN4",
+                          "synonyms": [
+                              "KLABIN S/A",
+                              "KLBN4",
+                              "K. L. B. N. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "KROT3",
+                      "name": {
+                          "value": "KROT3",
+                          "synonyms": [
+                              "KROTON",
+                              "KROT3",
+                              "K. R. O. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LLIS3",
+                      "name": {
+                          "value": "LLIS3",
+                          "synonyms": [
+                              "LE LIS BLANC",
+                              "LLIS3",
+                              "L. L. I. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LIGT3",
+                      "name": {
+                          "value": "LIGT3",
+                          "synonyms": [
+                              "LIGHT S/A",
+                              "LIGT3",
+                              "L. I. G. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LINX3",
+                      "name": {
+                          "value": "LINX3",
+                          "synonyms": [
+                              "LINX",
+                              "LINX3",
+                              "L. I. N. X. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LIQO3",
+                      "name": {
+                          "value": "LIQO3",
+                          "synonyms": [
+                              "LIQ",
+                              "LIQO3",
+                              "L. I. Q. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RENT3",
+                      "name": {
+                          "value": "RENT3",
+                          "synonyms": [
+                              "LOCALIZA",
+                              "RENT3",
+                              "R. E. N. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LCAM3",
+                      "name": {
+                          "value": "LCAM3",
+                          "synonyms": [
+                              "LOCAMERICA",
+                              "LCAM3",
+                              "L. C. A. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LOGG3",
+                      "name": {
+                          "value": "LOGG3",
+                          "synonyms": [
+                              "LOG COM PROP",
+                              "LOGG3",
+                              "L. O. G. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LOGN3",
+                      "name": {
+                          "value": "LOGN3",
+                          "synonyms": [
+                              "LOG-IN",
+                              "LOGN3",
+                              "L. O. G. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LAME3",
+                      "name": {
+                          "value": "LAME3",
+                          "synonyms": [
+                              "LOJAS AMERIC",
+                              "LAME3",
+                              "L. A. M. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LAME4",
+                      "name": {
+                          "value": "LAME4",
+                          "synonyms": [
+                              "LOJAS AMERIC",
+                              "LAME4",
+                              "L. A. M. E. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AMAR3",
+                      "name": {
+                          "value": "AMAR3",
+                          "synonyms": [
+                              "LOJAS MARISA",
+                              "AMAR3",
+                              "A. M. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LREN3",
+                      "name": {
+                          "value": "LREN3",
+                          "synonyms": [
+                              "LOJAS RENNER",
+                              "LREN3",
+                              "L. R. E. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LPSB3",
+                      "name": {
+                          "value": "LPSB3",
+                          "synonyms": [
+                              "LOPES BRASIL",
+                              "LPSB3",
+                              "L. P. S. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LUPA3",
+                      "name": {
+                          "value": "LUPA3",
+                          "synonyms": [
+                              "LUPATECH",
+                              "LUPA3",
+                              "L. U. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MDIA3",
+                      "name": {
+                          "value": "MDIA3",
+                          "synonyms": [
+                              "M.DIASBRANCO",
+                              "MDIA3",
+                              "M. D. I. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MGLU3",
+                      "name": {
+                          "value": "MGLU3",
+                          "synonyms": [
+                              "MAGAZ LUIZA",
+                              "MGLU3",
+                              "M. G. L. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MAGG3",
+                      "name": {
+                          "value": "MAGG3",
+                          "synonyms": [
+                              "MAGNESITA SA",
+                              "MAGG3",
+                              "M. A. G. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MGEL4",
+                      "name": {
+                          "value": "MGEL4",
+                          "synonyms": [
+                              "MANGELS INDL",
+                              "MGEL4",
+                              "M. G. E. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "POMO3",
+                      "name": {
+                          "value": "POMO3",
+                          "synonyms": [
+                              "MARCOPOLO",
+                              "POMO3",
+                              "P. O. M. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "POMO10",
+                      "name": {
+                          "value": "POMO10",
+                          "synonyms": [
+                              "MARCOPOLO",
+                              "POMO10",
+                              "P. O. M. O. 1. 0"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "POMO4",
+                      "name": {
+                          "value": "POMO4",
+                          "synonyms": [
+                              "MARCOPOLO",
+                              "POMO4",
+                              "P. O. M. O. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MRFG3",
+                      "name": {
+                          "value": "MRFG3",
+                          "synonyms": [
+                              "MARFRIG",
+                              "MRFG3",
+                              "M. R. F. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MSPA3",
+                      "name": {
+                          "value": "MSPA3",
+                          "synonyms": [
+                              "MELHOR SP",
+                              "MSPA3",
+                              "M. S. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MSPA4",
+                      "name": {
+                          "value": "MSPA4",
+                          "synonyms": [
+                              "MELHOR SP",
+                              "MSPA4",
+                              "M. S. P. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BMEB3",
+                      "name": {
+                          "value": "BMEB3",
+                          "synonyms": [
+                              "MERC BRASIL",
+                              "BMEB3",
+                              "B. M. E. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BMEB4",
+                      "name": {
+                          "value": "BMEB4",
+                          "synonyms": [
+                              "MERC BRASIL",
+                              "BMEB4",
+                              "B. M. E. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MERC3",
+                      "name": {
+                          "value": "MERC3",
+                          "synonyms": [
+                              "MERC FINANC",
+                              "MERC3",
+                              "M. E. R. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MERC4",
+                      "name": {
+                          "value": "MERC4",
+                          "synonyms": [
+                              "MERC FINANC",
+                              "MERC4",
+                              "M. E. R. C. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BMIN3",
+                      "name": {
+                          "value": "BMIN3",
+                          "synonyms": [
+                              "MERC INVEST",
+                              "BMIN3",
+                              "B. M. I. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BMIN4",
+                      "name": {
+                          "value": "BMIN4",
+                          "synonyms": [
+                              "MERC INVEST",
+                              "BMIN4",
+                              "B. M. I. N. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MTIG4",
+                      "name": {
+                          "value": "MTIG4",
+                          "synonyms": [
+                              "METAL IGUACU",
+                              "MTIG4",
+                              "M. T. I. G. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LEVE3",
+                      "name": {
+                          "value": "LEVE3",
+                          "synonyms": [
+                              "METAL LEVE",
+                              "LEVE3",
+                              "L. E. V. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FRIO3",
+                      "name": {
+                          "value": "FRIO3",
+                          "synonyms": [
+                              "METALFRIO",
+                              "FRIO3",
+                              "F. R. I. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MTSA3",
+                      "name": {
+                          "value": "MTSA3",
+                          "synonyms": [
+                              "METISA",
+                              "MTSA3",
+                              "M. T. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MTSA4",
+                      "name": {
+                          "value": "MTSA4",
+                          "synonyms": [
+                              "METISA",
+                              "MTSA4",
+                              "M. T. S. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MILS3",
+                      "name": {
+                          "value": "MILS3",
+                          "synonyms": [
+                              "MILLS",
+                              "MILS3",
+                              "M. I. L. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BEEF3",
+                      "name": {
+                          "value": "BEEF3",
+                          "synonyms": [
+                              "MINERVA",
+                              "BEEF3",
+                              "B. E. E. F. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BEEF9",
+                      "name": {
+                          "value": "BEEF9",
+                          "synonyms": [
+                              "MINERVA",
+                              "BEEF9",
+                              "B. E. E. F. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MNPR3",
+                      "name": {
+                          "value": "MNPR3",
+                          "synonyms": [
+                              "MINUPAR",
+                              "MNPR3",
+                              "M. N. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MMXM3",
+                      "name": {
+                          "value": "MMXM3",
+                          "synonyms": [
+                              "MMX MINER",
+                              "MMXM3",
+                              "M. M. X. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MOAR3",
+                      "name": {
+                          "value": "MOAR3",
+                          "synonyms": [
+                              "MONT ARANHA",
+                              "MOAR3",
+                              "M. O. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MOVI3",
+                      "name": {
+                          "value": "MOVI3",
+                          "synonyms": [
+                              "MOVIDA",
+                              "MOVI3",
+                              "M. O. V. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MOVI9",
+                      "name": {
+                          "value": "MOVI9",
+                          "synonyms": [
+                              "MOVIDA",
+                              "MOVI9",
+                              "M. O. V. I. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MRVE3",
+                      "name": {
+                          "value": "MRVE3",
+                          "synonyms": [
+                              "MRV",
+                              "MRVE3",
+                              "M. R. V. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MULT3",
+                      "name": {
+                          "value": "MULT3",
+                          "synonyms": [
+                              "MULTIPLAN",
+                              "MULT3",
+                              "M. U. L. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MPLU3",
+                      "name": {
+                          "value": "MPLU3",
+                          "synonyms": [
+                              "MULTIPLUS",
+                              "MPLU3",
+                              "M. P. L. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MNDL3",
+                      "name": {
+                          "value": "MNDL3",
+                          "synonyms": [
+                              "MUNDIAL",
+                              "MNDL3",
+                              "M. N. D. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "NAFG3",
+                      "name": {
+                          "value": "NAFG3",
+                          "synonyms": [
+                              "NADIR FIGUEI",
+                              "NAFG3",
+                              "N. A. F. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "NAFG4",
+                      "name": {
+                          "value": "NAFG4",
+                          "synonyms": [
+                              "NADIR FIGUEI",
+                              "NAFG4",
+                              "N. A. F. G. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "NATU3",
+                      "name": {
+                          "value": "NATU3",
+                          "synonyms": [
+                              "NATURA",
+                              "NATU3",
+                              "N. A. T. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BNBR3",
+                      "name": {
+                          "value": "BNBR3",
+                          "synonyms": [
+                              "NORD BRASIL",
+                              "BNBR3",
+                              "B. N. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "NORD3",
+                      "name": {
+                          "value": "NORD3",
+                          "synonyms": [
+                              "NORDON MET",
+                              "NORD3",
+                              "N. O. R. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "NUTR3",
+                      "name": {
+                          "value": "NUTR3",
+                          "synonyms": [
+                              "NUTRIPLANT",
+                              "NUTR3",
+                              "N. U. T. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "ODPV3",
+                      "name": {
+                          "value": "ODPV3",
+                          "synonyms": [
+                              "ODONTOPREV",
+                              "ODPV3",
+                              "O. D. P. V. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OGXP3",
+                      "name": {
+                          "value": "OGXP3",
+                          "synonyms": [
+                              "OGX PETROLEO",
+                              "OGXP3",
+                              "O. G. X. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OIBR3",
+                      "name": {
+                          "value": "OIBR3",
+                          "synonyms": [
+                              "OI",
+                              "OIBR3",
+                              "O. I. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OIBR4",
+                      "name": {
+                          "value": "OIBR4",
+                          "synonyms": [
+                              "OI",
+                              "OIBR4",
+                              "O. I. B. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OMGE3",
+                      "name": {
+                          "value": "OMGE3",
+                          "synonyms": [
+                              "OMEGA GER",
+                              "OMGE3",
+                              "O. M. G. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OSXB3",
+                      "name": {
+                          "value": "OSXB3",
+                          "synonyms": [
+                              "OSX BRASIL",
+                              "OSXB3",
+                              "O. S. X. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "OFSA3",
+                      "name": {
+                          "value": "OFSA3",
+                          "synonyms": [
+                              "OUROFINO S/A",
+                              "OFSA3",
+                              "O. F. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PCAR3",
+                      "name": {
+                          "value": "PCAR3",
+                          "synonyms": [
+                              "P.ACUCAR-CBD",
+                              "PCAR3",
+                              "P. C. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PCAR4",
+                      "name": {
+                          "value": "PCAR4",
+                          "synonyms": [
+                              "P.ACUCAR-CBD",
+                              "PCAR4",
+                              "P. C. A. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PATI3",
+                      "name": {
+                          "value": "PATI3",
+                          "synonyms": [
+                              "PANATLANTICA",
+                              "PATI3",
+                              "P. A. T. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PATI4",
+                      "name": {
+                          "value": "PATI4",
+                          "synonyms": [
+                              "PANATLANTICA",
+                              "PATI4",
+                              "P. A. T. I. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PEAB3",
+                      "name": {
+                          "value": "PEAB3",
+                          "synonyms": [
+                              "PAR AL BAHIA",
+                              "PEAB3",
+                              "P. E. A. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PEAB4",
+                      "name": {
+                          "value": "PEAB4",
+                          "synonyms": [
+                              "PAR AL BAHIA",
+                              "PEAB4",
+                              "P. E. A. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PMAM3",
+                      "name": {
+                          "value": "PMAM3",
+                          "synonyms": [
+                              "PARANAPANEMA",
+                              "PMAM3",
+                              "P. M. A. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PDGR3",
+                      "name": {
+                          "value": "PDGR3",
+                          "synonyms": [
+                              "PDG REALT",
+                              "PDGR3",
+                              "P. D. G. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RPMG3",
+                      "name": {
+                          "value": "RPMG3",
+                          "synonyms": [
+                              "PET MANGUINH",
+                              "RPMG3",
+                              "R. P. M. G. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PETR3",
+                      "name": {
+                          "value": "PETR3",
+                          "synonyms": [
+                              "PETROBRAS",
+                              "PETR3",
+                              "P. E. T. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PETR4",
+                      "name": {
+                          "value": "PETR4",
+                          "synonyms": [
+                              "PETROBRAS",
+                              "PETR4",
+                              "P. E. T. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "BRDT3",
+                      "name": {
+                          "value": "BRDT3",
+                          "synonyms": [
+                              "PETROBRAS BR",
+                              "BRDT3",
+                              "B. R. D. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PRIO3",
+                      "name": {
+                          "value": "PRIO3",
+                          "synonyms": [
+                              "PETRORIO",
+                              "PRIO3",
+                              "P. R. I. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PTNT3",
+                      "name": {
+                          "value": "PTNT3",
+                          "synonyms": [
+                              "PETTENATI",
+                              "PTNT3",
+                              "P. T. N. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PTNT4",
+                      "name": {
+                          "value": "PTNT4",
+                          "synonyms": [
+                              "PETTENATI",
+                              "PTNT4",
+                              "P. T. N. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PINE4",
+                      "name": {
+                          "value": "PINE4",
+                          "synonyms": [
+                              "PINE",
+                              "PINE4",
+                              "P. I. N. E. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PLAS3",
+                      "name": {
+                          "value": "PLAS3",
+                          "synonyms": [
+                              "PLASCAR PART",
+                              "PLAS3",
+                              "P. L. A. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "FRTA3",
+                      "name": {
+                          "value": "FRTA3",
+                          "synonyms": [
+                              "POMIFRUTAS",
+                              "FRTA3",
+                              "F. R. T. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PSSA3",
+                      "name": {
+                          "value": "PSSA3",
+                          "synonyms": [
+                              "PORTO SEGURO",
+                              "PSSA3",
+                              "P. S. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PTBL3",
+                      "name": {
+                          "value": "PTBL3",
+                          "synonyms": [
+                              "PORTOBELLO",
+                              "PTBL3",
+                              "P. T. B. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "POSI3",
+                      "name": {
+                          "value": "POSI3",
+                          "synonyms": [
+                              "POSITIVO TEC",
+                              "POSI3",
+                              "P. O. S. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "PFRM3",
+                      "name": {
+                          "value": "PFRM3",
+                          "synonyms": [
+                              "PROFARMA",
+                              "PFRM3",
+                              "P. F. R. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "QGEP3",
+                      "name": {
+                          "value": "QGEP3",
+                          "synonyms": [
+                              "QGEP PART",
+                              "QGEP3",
+                              "Q. G. E. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "QUAL3",
+                      "name": {
+                          "value": "QUAL3",
+                          "synonyms": [
+                              "QUALICORP",
+                              "QUAL3",
+                              "Q. U. A. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RADL3",
+                      "name": {
+                          "value": "RADL3",
+                          "synonyms": [
+                              "RAIADROGASIL",
+                              "RADL3",
+                              "R. A. D. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RAPT3",
+                      "name": {
+                          "value": "RAPT3",
+                          "synonyms": [
+                              "RANDON PART",
+                              "RAPT3",
+                              "R. A. P. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RAPT4",
+                      "name": {
+                          "value": "RAPT4",
+                          "synonyms": [
+                              "RANDON PART",
+                              "RAPT4",
+                              "R. A. P. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RCSL3",
+                      "name": {
+                          "value": "RCSL3",
+                          "synonyms": [
+                              "RECRUSUL",
+                              "RCSL3",
+                              "R. C. S. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RCSL4",
+                      "name": {
+                          "value": "RCSL4",
+                          "synonyms": [
+                              "RECRUSUL",
+                              "RCSL4",
+                              "R. C. S. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "REDE3",
+                      "name": {
+                          "value": "REDE3",
+                          "synonyms": [
+                              "REDE ENERGIA",
+                              "REDE3",
+                              "R. E. D. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RNEW3",
+                      "name": {
+                          "value": "RNEW3",
+                          "synonyms": [
+                              "RENOVA",
+                              "RNEW3",
+                              "R. N. E. W. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RNEW4",
+                      "name": {
+                          "value": "RNEW4",
+                          "synonyms": [
+                              "RENOVA",
+                              "RNEW4",
+                              "R. N. E. W. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RSUL4",
+                      "name": {
+                          "value": "RSUL4",
+                          "synonyms": [
+                              "RIOSULENSE",
+                              "RSUL4",
+                              "R. S. U. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RDNI3",
+                      "name": {
+                          "value": "RDNI3",
+                          "synonyms": [
+                              "RNI",
+                              "RDNI3",
+                              "R. D. N. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RSID3",
+                      "name": {
+                          "value": "RSID3",
+                          "synonyms": [
+                              "ROSSI RESID",
+                              "RSID3",
+                              "R. S. I. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "RAIL3",
+                      "name": {
+                          "value": "RAIL3",
+                          "synonyms": [
+                              "RUMO S.A.",
+                              "RAIL3",
+                              "R. A. I. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SBSP3",
+                      "name": {
+                          "value": "SBSP3",
+                          "synonyms": [
+                              "SABESP",
+                              "SBSP3",
+                              "S. B. S. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SAPR3",
+                      "name": {
+                          "value": "SAPR3",
+                          "synonyms": [
+                              "SANEPAR",
+                              "SAPR3",
+                              "S. A. P. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SAPR4",
+                      "name": {
+                          "value": "SAPR4",
+                          "synonyms": [
+                              "SANEPAR",
+                              "SAPR4",
+                              "S. A. P. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SANB3",
+                      "name": {
+                          "value": "SANB3",
+                          "synonyms": [
+                              "SANTANDER BR",
+                              "SANB3",
+                              "S. A. N. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SANB4",
+                      "name": {
+                          "value": "SANB4",
+                          "synonyms": [
+                              "SANTANDER BR",
+                              "SANB4",
+                              "S. A. N. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTSA3",
+                      "name": {
+                          "value": "CTSA3",
+                          "synonyms": [
+                              "SANTANENSE",
+                              "CTSA3",
+                              "C. T. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CTSA4",
+                      "name": {
+                          "value": "CTSA4",
+                          "synonyms": [
+                              "SANTANENSE",
+                              "CTSA4",
+                              "C. T. S. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "STBP3",
+                      "name": {
+                          "value": "STBP3",
+                          "synonyms": [
+                              "SANTOS BRP",
+                              "STBP3",
+                              "S. T. B. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SCAR3",
+                      "name": {
+                          "value": "SCAR3",
+                          "synonyms": [
+                              "SAO CARLOS",
+                              "SCAR3",
+                              "S. C. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SMTO3",
+                      "name": {
+                          "value": "SMTO3",
+                          "synonyms": [
+                              "SAO MARTINHO",
+                              "SMTO3",
+                              "S. M. T. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SLED3",
+                      "name": {
+                          "value": "SLED3",
+                          "synonyms": [
+                              "SARAIVA LIVR",
+                              "SLED3",
+                              "S. L. E. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SLED4",
+                      "name": {
+                          "value": "SLED4",
+                          "synonyms": [
+                              "SARAIVA LIVR",
+                              "SLED4",
+                              "S. L. E. D. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SHUL4",
+                      "name": {
+                          "value": "SHUL4",
+                          "synonyms": [
+                              "SCHULZ",
+                              "SHUL4",
+                              "S. H. U. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSAB3",
+                      "name": {
+                          "value": "CSAB3",
+                          "synonyms": [
+                              "SEG AL BAHIA",
+                              "CSAB3",
+                              "C. S. A. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSAB4",
+                      "name": {
+                          "value": "CSAB4",
+                          "synonyms": [
+                              "SEG AL BAHIA",
+                              "CSAB4",
+                              "C. S. A. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SNSL3",
+                      "name": {
+                          "value": "SNSL3",
+                          "synonyms": [
+                              "SENIOR SOL",
+                              "SNSL3",
+                              "S. N. S. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SEER3",
+                      "name": {
+                          "value": "SEER3",
+                          "synonyms": [
+                              "SER EDUCA",
+                              "SEER3",
+                              "S. E. E. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "CSNA3",
+                      "name": {
+                          "value": "CSNA3",
+                          "synonyms": [
+                              "SID NACIONAL",
+                              "CSNA3",
+                              "C. S. N. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SSBR3",
+                      "name": {
+                          "value": "SSBR3",
+                          "synonyms": [
+                              "SIERRABRASIL",
+                              "SSBR3",
+                              "S. S. B. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SQIA3",
+                      "name": {
+                          "value": "SQIA3",
+                          "synonyms": [
+                              "SINQIA",
+                              "SQIA3",
+                              "S. Q. I. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SLCE3",
+                      "name": {
+                          "value": "SLCE3",
+                          "synonyms": [
+                              "SLC AGRICOLA",
+                              "SLCE3",
+                              "S. L. C. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SMLS3",
+                      "name": {
+                          "value": "SMLS3",
+                          "synonyms": [
+                              "SMILES",
+                              "SMLS3",
+                              "S. M. L. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SEDU3",
+                      "name": {
+                          "value": "SEDU3",
+                          "synonyms": [
+                              "SOMOS EDUCA",
+                              "SEDU3",
+                              "S. E. D. U. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SPRI3",
+                      "name": {
+                          "value": "SPRI3",
+                          "synonyms": [
+                              "SPRINGER",
+                              "SPRI3",
+                              "S. P. R. I. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SGPS3",
+                      "name": {
+                          "value": "SGPS3",
+                          "synonyms": [
+                              "SPRINGS",
+                              "SGPS3",
+                              "S. G. P. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "AHEB3",
+                      "name": {
+                          "value": "AHEB3",
+                          "synonyms": [
+                              "SPTURIS",
+                              "AHEB3",
+                              "A. H. E. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SULA3",
+                      "name": {
+                          "value": "SULA3",
+                          "synonyms": [
+                              "SUL AMERICA",
+                              "SULA3",
+                              "S. U. L. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SULA4",
+                      "name": {
+                          "value": "SULA4",
+                          "synonyms": [
+                              "SUL AMERICA",
+                              "SULA4",
+                              "S. U. L. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SUZB3",
+                      "name": {
+                          "value": "SUZB3",
+                          "synonyms": [
+                              "SUZANO S.A.",
+                              "SUZB3",
+                              "S. U. Z. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TAEE3",
+                      "name": {
+                          "value": "TAEE3",
+                          "synonyms": [
+                              "TAESA",
+                              "TAEE3",
+                              "T. A. E. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TAEE4",
+                      "name": {
+                          "value": "TAEE4",
+                          "synonyms": [
+                              "TAESA",
+                              "TAEE4",
+                              "T. A. E. E. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TRPN3",
+                      "name": {
+                          "value": "TRPN3",
+                          "synonyms": [
+                              "TARPON INV",
+                              "TRPN3",
+                              "T. R. P. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TECN3",
+                      "name": {
+                          "value": "TECN3",
+                          "synonyms": [
+                              "TECHNOS",
+                              "TECN3",
+                              "T. E. C. N. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TCSA3",
+                      "name": {
+                          "value": "TCSA3",
+                          "synonyms": [
+                              "TECNISA",
+                              "TCSA3",
+                              "T. C. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TCNO3",
+                      "name": {
+                          "value": "TCNO3",
+                          "synonyms": [
+                              "TECNOSOLO",
+                              "TCNO3",
+                              "T. C. N. O. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TCNO4",
+                      "name": {
+                          "value": "TCNO4",
+                          "synonyms": [
+                              "TECNOSOLO",
+                              "TCNO4",
+                              "T. C. N. O. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TOYB3",
+                      "name": {
+                          "value": "TOYB3",
+                          "synonyms": [
+                              "TECTOY",
+                              "TOYB3",
+                              "T. O. Y. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TOYB4",
+                      "name": {
+                          "value": "TOYB4",
+                          "synonyms": [
+                              "TECTOY",
+                              "TOYB4",
+                              "T. O. Y. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TGMA3",
+                      "name": {
+                          "value": "TGMA3",
+                          "synonyms": [
+                              "TEGMA",
+                              "TGMA3",
+                              "T. G. M. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TEKA3",
+                      "name": {
+                          "value": "TEKA3",
+                          "synonyms": [
+                              "TEKA",
+                              "TEKA3",
+                              "T. E. K. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TEKA4",
+                      "name": {
+                          "value": "TEKA4",
+                          "synonyms": [
+                              "TEKA",
+                              "TEKA4",
+                              "T. E. K. A. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TKNO4",
+                      "name": {
+                          "value": "TKNO4",
+                          "synonyms": [
+                              "TEKNO",
+                              "TKNO4",
+                              "T. K. N. O. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TELB3",
+                      "name": {
+                          "value": "TELB3",
+                          "synonyms": [
+                              "TELEBRAS",
+                              "TELB3",
+                              "T. E. L. B. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TELB4",
+                      "name": {
+                          "value": "TELB4",
+                          "synonyms": [
+                              "TELEBRAS",
+                              "TELB4",
+                              "T. E. L. B. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VIVT3",
+                      "name": {
+                          "value": "VIVT3",
+                          "synonyms": [
+                              "TELEF BRASIL",
+                              "VIVT3",
+                              "V. I. V. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VIVT4",
+                      "name": {
+                          "value": "VIVT4",
+                          "synonyms": [
+                              "TELEF BRASIL",
+                              "VIVT4",
+                              "V. I. V. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TEND3",
+                      "name": {
+                          "value": "TEND3",
+                          "synonyms": [
+                              "TENDA",
+                              "TEND3",
+                              "T. E. N. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TESA3",
+                      "name": {
+                          "value": "TESA3",
+                          "synonyms": [
+                              "TERRA SANTA",
+                              "TESA3",
+                              "T. E. S. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TESA9",
+                      "name": {
+                          "value": "TESA9",
+                          "synonyms": [
+                              "TERRA SANTA",
+                              "TESA9",
+                              "T. E. S. A. 9"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TXRX3",
+                      "name": {
+                          "value": "TXRX3",
+                          "synonyms": [
+                              "TEX RENAUX",
+                              "TXRX3",
+                              "T. X. R. X. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TXRX4",
+                      "name": {
+                          "value": "TXRX4",
+                          "synonyms": [
+                              "TEX RENAUX",
+                              "TXRX4",
+                              "T. X. R. X. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TIMP3",
+                      "name": {
+                          "value": "TIMP3",
+                          "synonyms": [
+                              "TIM PART S/A",
+                              "TIMP3",
+                              "T. I. M. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "SHOW3",
+                      "name": {
+                          "value": "SHOW3",
+                          "synonyms": [
+                              "TIME FOR FUN",
+                              "SHOW3",
+                              "S. H. O. W. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TOTS3",
+                      "name": {
+                          "value": "TOTS3",
+                          "synonyms": [
+                              "TOTVS",
+                              "TOTS3",
+                              "T. O. T. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TRPL3",
+                      "name": {
+                          "value": "TRPL3",
+                          "synonyms": [
+                              "TRAN PAULIST",
+                              "TRPL3",
+                              "T. R. P. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TRPL4",
+                      "name": {
+                          "value": "TRPL4",
+                          "synonyms": [
+                              "TRAN PAULIST",
+                              "TRPL4",
+                              "T. R. P. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "LUXM4",
+                      "name": {
+                          "value": "LUXM4",
+                          "synonyms": [
+                              "TREVISA",
+                              "LUXM4",
+                              "L. U. X. M. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TRIS3",
+                      "name": {
+                          "value": "TRIS3",
+                          "synonyms": [
+                              "TRISUL",
+                              "TRIS3",
+                              "T. R. I. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TPIS3",
+                      "name": {
+                          "value": "TPIS3",
+                          "synonyms": [
+                              "TRIUNFO PART",
+                              "TPIS3",
+                              "T. P. I. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "TUPY3",
+                      "name": {
+                          "value": "TUPY3",
+                          "synonyms": [
+                              "TUPY",
+                              "TUPY3",
+                              "T. U. P. Y. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "UGPA3",
+                      "name": {
+                          "value": "UGPA3",
+                          "synonyms": [
+                              "ULTRAPAR",
+                              "UGPA3",
+                              "U. G. P. A. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "UCAS3",
+                      "name": {
+                          "value": "UCAS3",
+                          "synonyms": [
+                              "UNICASA",
+                              "UCAS3",
+                              "U. C. A. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "UNIP3",
+                      "name": {
+                          "value": "UNIP3",
+                          "synonyms": [
+                              "UNIPAR",
+                              "UNIP3",
+                              "U. N. I. P. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "USIM3",
+                      "name": {
+                          "value": "USIM3",
+                          "synonyms": [
+                              "USIMINAS",
+                              "USIM3",
+                              "U. S. I. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VALE3",
+                      "name": {
+                          "value": "VALE3",
+                          "synonyms": [
+                              "VALE",
+                              "VALE3",
+                              "V. A. L. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VLID3",
+                      "name": {
+                          "value": "VLID3",
+                          "synonyms": [
+                              "VALID",
+                              "VLID3",
+                              "V. L. I. D. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VVAR3",
+                      "name": {
+                          "value": "VVAR3",
+                          "synonyms": [
+                              "VIAVAREJO",
+                              "VVAR3",
+                              "V. V. A. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VVAR4",
+                      "name": {
+                          "value": "VVAR4",
+                          "synonyms": [
+                              "VIAVAREJO",
+                              "VVAR4",
+                              "V. V. A. R. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VIVR3",
+                      "name": {
+                          "value": "VIVR3",
+                          "synonyms": [
+                              "VIVER",
+                              "VIVR3",
+                              "V. I. V. R. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "VULC3",
+                      "name": {
+                          "value": "VULC3",
+                          "synonyms": [
+                              "VULCABRAS",
+                              "VULC3",
+                              "V. U. L. C. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WEGE3",
+                      "name": {
+                          "value": "WEGE3",
+                          "synonyms": [
+                              "WEG",
+                              "WEGE3",
+                              "W. E. G. E. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MWET3",
+                      "name": {
+                          "value": "MWET3",
+                          "synonyms": [
+                              "WETZEL S/A",
+                              "MWET3",
+                              "M. W. E. T. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "MWET4",
+                      "name": {
+                          "value": "MWET4",
+                          "synonyms": [
+                              "WETZEL S/A",
+                              "MWET4",
+                              "M. W. E. T. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WHRL3",
+                      "name": {
+                          "value": "WHRL3",
+                          "synonyms": [
+                              "WHIRLPOOL",
+                              "WHRL3",
+                              "W. H. R. L. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WHRL4",
+                      "name": {
+                          "value": "WHRL4",
+                          "synonyms": [
+                              "WHIRLPOOL",
+                              "WHRL4",
+                              "W. H. R. L. 4"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WIZS3",
+                      "name": {
+                          "value": "WIZS3",
+                          "synonyms": [
+                              "WIZ S.A.",
+                              "WIZS3",
+                              "W. I. Z. S. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WLMM3",
+                      "name": {
+                          "value": "WLMM3",
+                          "synonyms": [
+                              "WLM IND COM",
+                              "WLMM3",
+                              "W. L. M. M. 3"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "WLMM4",
+                      "name": {
+                          "value": "WLMM4",
+                          "synonyms": [
+                              "WLM IND COM",
+                              "WLMM4",
+                              "W. L. M. M. 4"
+                          ]
+                      }
+                  }
+              ]
+          }
+      ]
+    }
+  }
+}
