@@ -3,17 +3,19 @@
     "publishingInformation": {
       "locales": {
         "pt-BR": {
-          "summary": "Cotação de acões",
+          "summary": "Uma forma fácil e rápido para manter-se informado sobre a cotação de ações.",
           "examplePhrases": [
-            "Alexa, pergunte para meus investimentos qual o valor da ação"
+            "Alexa, pergunte para meus investimentos qual o valor de ITSA4",
+            "Alexa, pergunte para meus investimentos qual é o valor da cotação de PETR3",
+            "Alexa, pergunte para meus investimentos cotação de WEGE3"
           ],
           "keywords": [
             "ações",
             "cotação",
-            "bolsa de valor"
+            "investimento"
           ],
-          "name": "alexa-stocks",
-          "description": "Description Here",
+          "name": "Meus Investimentos",
+          "description": "Mantenha-se informado sobre o última cotação das ações que deseja. Uma forma rápida e fácil de se manter atualizado sobre o mercado financeiro. <br/><br/>Atualizações futuras:<br/>- Cadastre sua carteira de investimentos e acompanhe o valor das cotações e oscilações diariamente de forma mais fácil.<br/>- Cotação de Fundos de Imobiliários.<br/>",
           "smallIconUri": "",
           "largeIconUri": ""
         }
@@ -34,7 +36,7 @@
     "privacyAndCompliance": {
       "allowsPurchases": false,
       "locales": {
-        "en-US": {
+        "pt-BR": {
           "termsOfUseUrl": "",
           "privacyPolicyUrl": ""
         }

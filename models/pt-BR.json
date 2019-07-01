@@ -29,7 +29,9 @@
             "Cotação de {stocks}",
             "Quanto esta a ação {stocks}",
             "Quanto esta valendo a ação de {stocks}",
-            "Qual a cotação {stocks}",
+						"Qual a cotação {stocks}",
+						"Qual a cotação de {stocks}",
+						"Qual é o valor da cotação de {stocks}",
             "Qual o valor de {stocks}",
             "Qual o preço de {stocks}",
             "Qual foi a última cotação de {stocks}"
@@ -530,8 +532,8 @@
                 "value": "BTTL3",
                 "synonyms": [
                   "BATTISTELLA",
-                  "BTTL3",
-                  "B. T. T. L. 3"
+									"BTTL3",
+									"B. T. T. L. 3"
                 ]
               }
             },

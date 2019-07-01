@@ -3,7 +3,7 @@ module.exports = {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest'
   },
   handle(handlerInput) {
-    const speechText = "Olá, o que deseja saber?"
+    const speechText = "Olá, me diga o código da ação que deseja saber a cotação."
 
     return handlerInput.responseBuilder
       .speak(speechText)
