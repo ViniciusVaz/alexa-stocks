@@ -2,13 +2,48 @@ const helpers = require('../utils/helpers')
 const priceFormater = helpers.priceFormater
 const getRemoteData = helpers.getRemoteData
 
+const convertTextToNumber = (text) => {
+  if(text === "um" || text === "one")
+    return 1
+  else if (text === "dois" || text === "two")
+    return 2
+  else if (text === "três" || text === "three")
+    return 3
+  else if (text === "quatro" || text === "four")
+    return 4
+  else if (text === "cinco" || text === "five")
+    return 5
+  else if (text === "seis" || text === "six")
+    return 6
+  else if (text === "sete" || text === "seven")
+    return 7
+  else if (text === "oito" || text === "eight")
+    return 8
+  else if (text === "nove" || text === "nine")
+    return 9
+  else if (text === "dez" || text === "ten")
+    return 10
+  else 
+    return text
+}
+
+const voiceValueConvert = (value) => {
+  const inArray = value.split('. ')
+  const lastItem = inArray.pop()
+  const lastNumber = convertTextToNumber(lastItem)
+
+  inArray.push(lastNumber)
+
+  return inArray.toString().replace(/\,/g,'').toUpperCase()
+}
+
 module.exports = {
   canHandle(handlerInput) {
     return (handlerInput.requestEnvelope.request.type === 'IntentRequest'
       && handlerInput.requestEnvelope.request.intent.name === 'GetRemoteDataIntent');
   },
   async handle(handlerInput) {
-    const speechText = "Olá, o que deseja saber?"
+    const speechText = "Olá, me diga o código da ação que deseja saber a cotação."
     let outputSpeech = 'Ops, desculpe algo deu errado.';
 
     const intentStocks = handlerInput.requestEnvelope.request.intent.slots.stocks
@@ -18,9 +53,11 @@ module.exports = {
       const stockVoiceSize = intentStocks.value.length
 
       if(stockVoiceSize >= 5 && resolutionsPerAuthority.values) {
+        const formattedVoiceValue = voiceValueConvert(intentStocks.value)
+        const matchFirstValue = formattedVoiceValue === resolutionsPerAuthority.values[0].value.name
         const machLength = resolutionsPerAuthority.values.length
 
-        if(machLength > 1) {
+        if(machLength > 1 && !matchFirstValue) {
           const stockCode1 = resolutionsPerAuthority.values[0].value.id
           const stockCode2 = resolutionsPerAuthority.values[1].value.id
 
@@ -35,7 +72,7 @@ module.exports = {
               const lastUpdateKey = data["Meta Data"]["3. Last Refreshed"]
               const priceClose = data["Time Series (1min)"][lastUpdateKey]["4. close"]
 
-              outputSpeech = `Cotação de <say-as interpret-as="characters">${stockCode}</say-as> ${priceFormater(priceClose)}.`;
+              outputSpeech = `A cotação de <say-as interpret-as="characters">${stockCode}</say-as> é ${priceFormater(priceClose)}.`;
             })
             .catch((err) => {
               outputSpeech = `ERRO API`;

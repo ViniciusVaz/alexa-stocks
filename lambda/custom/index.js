@@ -11,7 +11,7 @@ const HelpIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
   },
   handle(handlerInput) {
-    const speechText = 'Você pode perguntar a cotação ações.';
+    const speechText = `Você pode perguntar a cotação de ações. Exemplo: Qual é a cotação de <say-as interpret-as="characters">PETR4</say-as>.`;
 
     return handlerInput.responseBuilder
       .speak(speechText)
