@@ -58,44 +58,45 @@ module.exports = {
         const matchFirstValue = formattedVoiceValue === resolutionsPerAuthority.values[0].value.name
         const machLength = resolutionsPerAuthority.values.length
 
-        if(machLength > 1 && !matchFirstValue) {
-          const stockCode1 = resolutionsPerAuthority.values[0].value.id
-          const stockCode2 = resolutionsPerAuthority.values[1].value.id
-          waitAnswer = true
+        // if(machLength > 1 && !matchFirstValue) {
+        //   const stockCode1 = resolutionsPerAuthority.values[0].value.id
+        //   const stockCode2 = resolutionsPerAuthority.values[1].value.id
+        //   waitAnswer = true
 
-          outputSpeech = `Você deseja saber a cotação de <say-as interpret-as="characters">${stockCode1}</say-as> ou <say-as interpret-as="characters">${stockCode2}</say-as>?`;
-        }
-        else {
+        //   outputSpeech = `Você deseja saber a cotação de <say-as interpret-as="characters">${stockCode1}</say-as> ou <say-as interpret-as="characters">${stockCode2}</say-as>?`;
+        // }
+        // else {
           const stockCode = resolutionsPerAuthority.values[0].value.id
 
-          await getRemoteData(`https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${stockCode}.SA&interval=1min&apikey=J3FQEEUK9ESR4BSI`)
+          await getRemoteData(`https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${stockCode}.SA&interval=15min&apikey=J3FQEEUK9ESR4BSI`)
             .then((response) => {
               const data = JSON.parse(response);
               const lastUpdateKey = data["Meta Data"]["3. Last Refreshed"]
-              const priceClose = data["Time Series (1min)"][lastUpdateKey]["4. close"]
+              const priceClose = data["Time Series (15min)"][lastUpdateKey]["4. close"]
 
               outputSpeech = `A cotação de <say-as interpret-as="characters">${stockCode}</say-as> é ${priceFormater(priceClose)}.`;
             })
             .catch((err) => {
               outputSpeech = `Desculpe não encontrei a ação`;
             });
-        }
+        // }
       }
       else {
-        outputSpeech = `Desculpe não encontrei a ação ${intentStocks.value}.`
+        outputSpeech = `Desculpe não encontrei a ação <say-as interpret-as="characters">${intentStocks.value}.</say-as>`
       }
     } else {
       outputSpeech = `Desculpe não entendi este comando.`
     }
-    if(waitAnswer) {
+    // if(waitAnswer) {
+    //   return handlerInput.responseBuilder
+    //     .speak(outputSpeech)
+    //     .reprompt(speechText)
+    //     .getResponse();
+    // } else {
       return handlerInput.responseBuilder
         .speak(outputSpeech)
-        .reprompt(speechText)
+        // .reprompt(speechText)
         .getResponse();
-    } else {
-      return handlerInput.responseBuilder
-        .speak(outputSpeech)
-        .getResponse();
-    }
+    // }
   },
 };
