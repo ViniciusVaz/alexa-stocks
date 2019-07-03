@@ -45,6 +45,7 @@ module.exports = {
   async handle(handlerInput) {
     const speechText = "Olá, me diga o código da ação que deseja saber a cotação."
     let outputSpeech = 'Ops, desculpe algo deu errado.';
+    let waitAnswer = false
 
     const intentStocks = handlerInput.requestEnvelope.request.intent.slots.stocks
     
@@ -60,6 +61,7 @@ module.exports = {
         if(machLength > 1 && !matchFirstValue) {
           const stockCode1 = resolutionsPerAuthority.values[0].value.id
           const stockCode2 = resolutionsPerAuthority.values[1].value.id
+          waitAnswer = true
 
           outputSpeech = `Você deseja saber a cotação de <say-as interpret-as="characters">${stockCode1}</say-as> ou <say-as interpret-as="characters">${stockCode2}</say-as>?`;
         }
@@ -75,7 +77,7 @@ module.exports = {
               outputSpeech = `A cotação de <say-as interpret-as="characters">${stockCode}</say-as> é ${priceFormater(priceClose)}.`;
             })
             .catch((err) => {
-              outputSpeech = `ERRO API`;
+              outputSpeech = `Desculpe não encontrei a ação`;
             });
         }
       }
@@ -85,10 +87,15 @@ module.exports = {
     } else {
       outputSpeech = `Desculpe não entendi este comando.`
     }
-
-    return handlerInput.responseBuilder
-      .speak(outputSpeech)
-      .reprompt(speechText)
-      .getResponse();
+    if(waitAnswer) {
+      return handlerInput.responseBuilder
+        .speak(outputSpeech)
+        .reprompt(speechText)
+        .getResponse();
+    } else {
+      return handlerInput.responseBuilder
+        .speak(outputSpeech)
+        .getResponse();
+    }
   },
 };

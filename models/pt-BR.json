@@ -71,7 +71,8 @@
                 "synonyms": [
                   "ACO ALTONA",
                   "EALT3",
-                  "E. A. L. T. 3"
+                  "E. A. L. T. 3",
+                  "E A L. T. 3"
                 ]
               }
             },
@@ -82,7 +83,8 @@
                 "synonyms": [
                   "ACO ALTONA",
                   "EALT4",
-                  "E. A. L. T. 4"
+                  "E. A. L. T. 4",
+                  "E A L. T. 4"
                 ]
               }
             },
@@ -104,7 +106,8 @@
                 "synonyms": [
                   "AES ELPA",
                   "AELP3",
-                  "A. E. L. P. 3"
+                  "A. E. L. P. 3",
+                  "A E L. P. 3"
                 ]
               }
             },
@@ -115,7 +118,8 @@
                 "synonyms": [
                   "AES TIETE E",
                   "TIET3",
-                  "T. I. E. T. 3"
+                  "T. I. E. T. 3",
+                  "T. I. E T. 3"
                 ]
               }
             },
@@ -126,7 +130,8 @@
                 "synonyms": [
                   "AES TIETE E",
                   "TIET4",
-                  "T. I. E. T. 4"
+                  "T. I. E. T. 4",
+                  "T. I. E T. 4"
                 ]
               }
             },
@@ -236,7 +241,8 @@
                 "synonyms": [
                   "ALLIAR",
                   "AALR3",
-                  "A. A. L. R. 3"
+                  "A. A. L. R. 3",
+                  "a a L. R. 3"
                 ]
               }
             },
@@ -324,7 +330,8 @@
                 "synonyms": [
                   "AMPLA ENERG",
                   "CBEE3",
-                  "C. B. E. E. 3"
+                  "C. B. E. E. 3",
+                  "C. B. e e 3"
                 ]
               }
             },
@@ -489,7 +496,8 @@
                 "synonyms": [
                   "BANESTES",
                   "BEES3",
-                  "B. E. E. S. 3"
+                  "B. E. E. S. 3",
+                  "B. E E S. 3"
                 ]
               }
             },
@@ -500,7 +508,8 @@
                 "synonyms": [
                   "BANESTES",
                   "BEES4",
-                  "B. E. E. S. 4"
+                  "B. E. E. S. 4",
+                  "B. E E S. 4"
                 ]
               }
             },
@@ -951,7 +960,8 @@
                 "synonyms": [
                   "CEEE-D",
                   "CEED3",
-                  "C. E. E. D. 3"
+                  "C. E. E. D. 3",
+                  "C. E E D. 3"
                 ]
               }
             },
@@ -962,7 +972,8 @@
                 "synonyms": [
                   "CEEE-D",
                   "CEED4",
-                  "C. E. E. D. 4"
+                  "C. E. E. D. 4",
+                  "C. E E D. 4"
                 ]
               }
             },
@@ -973,7 +984,8 @@
                 "synonyms": [
                   "CEEE-GT",
                   "EEEL3",
-                  "E. E. E. L. 3"
+                  "E. E. E. L. 3",
+                  "E E E L. 3"
                 ]
               }
             },
@@ -984,7 +996,8 @@
                 "synonyms": [
                   "CEEE-GT",
                   "EEEL4",
-                  "E. E. E. L. 4"
+                  "E. E. E. L. 4",
+                  "E E E L. 4"
                 ]
               }
             },
@@ -1149,7 +1162,8 @@
                 "synonyms": [
                   "CIELO",
                   "CIEL3",
-                  "C. I. E. L. 3"
+                  "C. I. E. L. 3",
+                  "C. I. E L. 3"
                 ]
               }
             },
@@ -1160,7 +1174,8 @@
                 "synonyms": [
                   "COELBA",
                   "CEEB3",
-                  "C. E. E. B. 3"
+                  "C. E. E. B. 3",
+                  "C. E E B. 3"
                 ]
               }
             },
@@ -1589,7 +1604,8 @@
                 "synonyms": [
                   "EMAE",
                   "EMAE3",
-                  "E. M. A. E. 3"
+                  "E. M. A. E. 3",
+                  "E. M. A E 3"
                 ]
               }
             },
@@ -1600,7 +1616,8 @@
                 "synonyms": [
                   "EMAE",
                   "EMAE4",
-                  "E. M. A. E. 4"
+                  "E. M. A. E. 4",
+                  "E. M. A E 4"
                 ]
               }
             },
@@ -1721,7 +1738,8 @@
                 "synonyms": [
                   "ENGIE BRASIL",
                   "EGIE3",
-                  "E. G. I. E. 3"
+                  "E. G. I. E. 3",
+                  "E G. I. E 3"
                 ]
               }
             },
@@ -1787,7 +1805,8 @@
                 "synonyms": [
                   "EUCATEX",
                   "EUCA3",
-                  "E. U. C. A. 3"
+                  "E. U. C. A. 3",
+                  "E U C. A. 3"
                 ]
               }
             },
@@ -1798,7 +1817,8 @@
                 "synonyms": [
                   "EUCATEX",
                   "EUCA4",
-                  "E. U. C. A. 4"
+                  "E. U. C. A. 4",
+                  "E U C. A. 4"
                 ]
               }
             },
@@ -1820,7 +1840,9 @@
                 "synonyms": [
                   "EXCELSIOR",
                   "BAUH4",
-                  "B. A. U. H. 4"
+                  "B. A. U. H. 4",
+                  "B. A U. H. 4",
+                  "B. A U H. 4"
                 ]
               }
             },
@@ -2018,7 +2040,8 @@
                 "synonyms": [
                   "GERDAU MET",
                   "GOAU3",
-                  "G. O. A. U. 3"
+                  "G. O. A. U. 3",
+                  "G. O A U. 3"
                 ]
               }
             },
@@ -2029,7 +2052,8 @@
                 "synonyms": [
                   "GERDAU MET",
                   "GOAU4",
-                  "G. O. A. U. 4"
+                  "G. O. A. U. 4",
+                  "G. O A U. 4"
                 ]
               }
             },
@@ -2095,7 +2119,8 @@
                 "synonyms": [
                   "GUARARAPES",
                   "GUAR3",
-                  "G. U. A. R. 3"
+                  "G. U. A. R. 3",
+                  "G. U. A R. 3"
                 ]
               }
             },
@@ -2106,7 +2131,8 @@
                 "synonyms": [
                   "GUARARAPES",
                   "GUAR4",
-                  "G. U. A. R. 4"
+                  "G. U. A. R. 4",
+                  "G. U. A R. 4"
                 ]
               }
             },
@@ -2172,7 +2198,8 @@
                 "synonyms": [
                   "HOTEIS OTHON",
                   "HOOT4",
-                  "H. O. O. T. 4"
+                  "H. O. O. T. 4",
+                  "H. O O T. 4"
                 ]
               }
             },
@@ -2238,7 +2265,8 @@
                 "synonyms": [
                   "IMC S/A",
                   "MEAL3",
-                  "M. E. A. L. 3"
+                  "M. E. A. L. 3",
+                  "M. E A L. 3"
                 ]
               }
             },
@@ -2744,7 +2772,8 @@
                 "synonyms": [
                   "M.DIASBRANCO",
                   "MDIA3",
-                  "M. D. I. A. 3"
+                  "M. D. I. A. 3",
+                  "M. D. I A 3"
                 ]
               }
             },
@@ -2986,7 +3015,8 @@
                 "synonyms": [
                   "MINERVA",
                   "BEEF3",
-                  "B. E. E. F. 3"
+                  "B. E. E. F. 3",
+                  "B. E E F. 3"
                 ]
               }
             },
@@ -2997,7 +3027,8 @@
                 "synonyms": [
                   "MINERVA",
                   "BEEF9",
-                  "B. E. E. F. 9"
+                  "B. E. E. F. 9",
+                  "B. E E F. 9"
                 ]
               }
             },
@@ -3030,7 +3061,8 @@
                 "synonyms": [
                   "MONT ARANHA",
                   "MOAR3",
-                  "M. O. A. R. 3"
+                  "M. O. A. R. 3",
+                  "M. O A R. 3"
                 ]
               }
             },
@@ -3195,7 +3227,8 @@
                 "synonyms": [
                   "OI",
                   "OIBR3",
-                  "O. I. B. R. 3"
+                  "O. I. B. R. 3",
+                  "OI B. R. 3"
                 ]
               }
             },
@@ -3206,7 +3239,8 @@
                 "synonyms": [
                   "OI",
                   "OIBR4",
-                  "O. I. B. R. 4"
+                  "O. I. B. R. 4",
+                  "OI B. R. 4"
                 ]
               }
             },
@@ -3294,7 +3328,8 @@
                 "synonyms": [
                   "PAR AL BAHIA",
                   "PEAB3",
-                  "P. E. A. B. 3"
+                  "P. E. A. B. 3",
+                  "P. E A B. 3"
                 ]
               }
             },
@@ -3305,7 +3340,8 @@
                 "synonyms": [
                   "PAR AL BAHIA",
                   "PEAB4",
-                  "P. E. A. B. 4"
+                  "P. E. A. B. 4",
+                  "P. E A B. 4"
                 ]
               }
             },
@@ -3503,7 +3539,8 @@
                 "synonyms": [
                   "QUALICORP",
                   "QUAL3",
-                  "Q. U. A. L. 3"
+                  "Q. U. A. L. 3",
+                  "Q. U. A L. 3"
                 ]
               }
             },
@@ -3635,7 +3672,8 @@
                 "synonyms": [
                   "RUMO S.A.",
                   "RAIL3",
-                  "R. A. I. L. 3"
+                  "R. A. I. L. 3",
+                  "R. A I L. 3"
                 ]
               }
             },
@@ -3822,7 +3860,8 @@
                 "synonyms": [
                   "SER EDUCA",
                   "SEER3",
-                  "S. E. E. R. 3"
+                  "S. E. E. R. 3",
+                  "S. E E R. 3"
                 ]
               }
             },
@@ -3965,7 +4004,8 @@
                 "synonyms": [
                   "TAESA",
                   "TAEE3",
-                  "T. A. E. E. 3"
+                  "T. A. E. E. 3",
+                  "T. A E E 3"
                 ]
               }
             },
@@ -3976,7 +4016,8 @@
                 "synonyms": [
                   "TAESA",
                   "TAEE4",
-                  "T. A. E. E. 4"
+                  "T. A. E. E. 4",
+                  "T. A E E 4"
                 ]
               }
             },
