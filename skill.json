@@ -5,9 +5,9 @@
         "pt-BR": {
           "summary": "Uma forma fácil e rápido para manter-se informado sobre a cotação de ações.",
           "examplePhrases": [
-            "Alexa, pergunte para meus investimentos qual o valor de ITSA4",
-            "Alexa, pergunte para meus investimentos qual é o valor da cotação de PETR3",
-            "Alexa, pergunte para meus investimentos cotação de WEGE3"
+            "Alexa pergunte para meus investimentos qual o valor de ITSA4",
+            "Alexa pergunte para meus investimentos qual é o valor da cotação de PETR3",
+            "Alexa pergunte para meus investimentos cotação de WEGE3"
           ],
           "keywords": [
             "ações",
@@ -21,7 +21,7 @@
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "",
+      "testingInstructions": "It's only necessary to ask Alexa about Brazilian stock companies using its code. For example: 'Alexa, pergunte para Meus Investimentos qual é a cotação de ITSA4' or 'Alexa, pergunte para Meus Investimentos qual a cotação de PETR3'",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },
